@@ -1,0 +1,78 @@
+.mytop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+.search {
+  padding: 20rpx 16rpx;
+  background-color: #eeeeee;
+}
+.search .search_input {
+  width: 100%;
+  height: 60rpx;
+  background-color: #fff;
+  position: relative;
+}
+.search .search_input input {
+  padding-left: 70rpx;
+}
+.search .search_input .word {
+  position: absolute;
+  top: 6rpx;
+  left: 20rpx;
+}
+.tab {
+  height: 100rpx;
+  border-bottom: 1px solid #f4f4f4;
+  display: flex;
+}
+.tab div {
+  width: 33.33%;
+  line-height: 100rpx;
+  text-align: center;
+}
+.tab .active {
+  color: #eb4450;
+}
+.tab .goodsList {
+  margin-top: 200rpx;
+  padding: 0 20rpx;
+}
+.tab .goodsList .item {
+  height: 260rpx;
+  border-bottom: 1px solid #eee;
+}
+.tab .goodsList .item .box {
+  display: flex;
+}
+.tab .goodsList .item .box .left {
+  width: 200rpx;
+  margin-top: 30rpx;
+}
+.tab .goodsList .item .box .left image {
+  width: 200rpx;
+  height: 200rpx;
+}
+.tab .goodsList .item .box .right {
+  flex: 1;
+  padding: 30px;
+}
+.tab .goodsList .item .box .right .word {
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.tab .goodsList .item .box .right .price {
+  color: red;
+  margin-top: 80rpx;
+}
+.tab .goodsList .item .box .right .price span:first-child {
+  font-size: 14px;
+}
+.tab .goodsList .item .box .right .price span:last-child {
+  font-size: 20px;
+}
